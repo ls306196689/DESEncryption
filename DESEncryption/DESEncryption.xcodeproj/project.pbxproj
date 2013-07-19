@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50371761752408A005D594D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50371751752408A005D594D /* Cocoa.framework */; };
+		C50371801752408A005D594D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C503717E1752408A005D594D /* InfoPlist.strings */; };
+		C50371821752408A005D594D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C50371811752408A005D594D /* main.m */; };
+		C50371861752408A005D594D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C50371841752408A005D594D /* Credits.rtf */; };
+		C50371891752408A005D594D /* SPFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C50371881752408A005D594D /* SPFAppDelegate.m */; };
+		C503718C1752408A005D594D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C503718A1752408A005D594D /* MainMenu.xib */; };
+		C50371941752444E005D594D /* SPFViewFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = C50371931752444E005D594D /* SPFViewFiles.m */; };
+		C515AD771754ECCD00F75F8D /* SPFView.m in Sources */ = {isa = PBXBuildFile; fileRef = C515AD761754ECCD00F75F8D /* SPFView.m */; };
+		C515AD7A1754F43900F75F8D /* SPFWindowsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C515AD791754F43900F75F8D /* SPFWindowsController.m */; };
+		C515AD811754F6A900F75F8D /* DESEncrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C515AD7C1754F6A900F75F8D /* DESEncrypt.cpp */; };
+		C515AD821754F6A900F75F8D /* FileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C515AD801754F6A900F75F8D /* FileManager.mm */; };
+		C51813041753A56C0054FFFB /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = C51813031753A56C0054FFFB /* Controller.mm */; };
+		C55A266A1753A06300AE85D6 /* SPFTableViewDragAndDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A26691753A06300AE85D6 /* SPFTableViewDragAndDrop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C50371721752408A005D594D /* DESEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DESEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50371751752408A005D594D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C50371781752408A005D594D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C50371791752408A005D594D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C503717A1752408A005D594D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C503717D1752408A005D594D /* DESEncryption-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DESEncryption-Info.plist"; sourceTree = "<group>"; };
+		C503717F1752408A005D594D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C50371811752408A005D594D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C50371831752408A005D594D /* DESEncryption-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DESEncryption-Prefix.pch"; sourceTree = "<group>"; };
+		C50371851752408A005D594D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C50371871752408A005D594D /* SPFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPFAppDelegate.h; sourceTree = "<group>"; };
+		C50371881752408A005D594D /* SPFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPFAppDelegate.m; sourceTree = "<group>"; };
+		C503718B1752408A005D594D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C50371921752444E005D594D /* SPFViewFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFViewFiles.h; sourceTree = "<group>"; };
+		C50371931752444E005D594D /* SPFViewFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFViewFiles.m; sourceTree = "<group>"; };
+		C515AD751754ECCD00F75F8D /* SPFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFView.h; sourceTree = "<group>"; };
+		C515AD761754ECCD00F75F8D /* SPFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFView.m; sourceTree = "<group>"; };
+		C515AD781754F43900F75F8D /* SPFWindowsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFWindowsController.h; sourceTree = "<group>"; };
+		C515AD791754F43900F75F8D /* SPFWindowsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFWindowsController.m; sourceTree = "<group>"; };
+		C515AD7C1754F6A900F75F8D /* DESEncrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DESEncrypt.cpp; sourceTree = "<group>"; };
+		C515AD7D1754F6A900F75F8D /* DESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncrypt.h; sourceTree = "<group>"; };
+		C515AD7E1754F6A900F75F8D /* DESHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESHeaders.h; sourceTree = "<group>"; };
+		C515AD7F1754F6A900F75F8D /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		C515AD801754F6A900F75F8D /* FileManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FileManager.mm; sourceTree = "<group>"; };
+		C51813021753A56C0054FFFB /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		C51813031753A56C0054FFFB /* Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Controller.mm; sourceTree = "<group>"; };
+		C55A26681753A06300AE85D6 /* SPFTableViewDragAndDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFTableViewDragAndDrop.h; sourceTree = "<group>"; };
+		C55A26691753A06300AE85D6 /* SPFTableViewDragAndDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFTableViewDragAndDrop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C503716F1752408A005D594D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50371761752408A005D594D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C503716917524089005D594D = {
+			isa = PBXGroup;
+			children = (
+				C503717B1752408A005D594D /* DESEncryption */,
+				C50371741752408A005D594D /* Frameworks */,
+				C50371731752408A005D594D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50371731752408A005D594D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50371721752408A005D594D /* DESEncryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50371741752408A005D594D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50371751752408A005D594D /* Cocoa.framework */,
+				C50371771752408A005D594D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C50371771752408A005D594D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50371781752408A005D594D /* AppKit.framework */,
+				C50371791752408A005D594D /* CoreData.framework */,
+				C503717A1752408A005D594D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C503717B1752408A005D594D /* DESEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				C515AD7B1754F6A900F75F8D /* DesClasses */,
+				C50371871752408A005D594D /* SPFAppDelegate.h */,
+				C50371881752408A005D594D /* SPFAppDelegate.m */,
+				C503718A1752408A005D594D /* MainMenu.xib */,
+				C503717C1752408A005D594D /* Supporting Files */,
+				C50371921752444E005D594D /* SPFViewFiles.h */,
+				C50371931752444E005D594D /* SPFViewFiles.m */,
+				C55A26681753A06300AE85D6 /* SPFTableViewDragAndDrop.h */,
+				C55A26691753A06300AE85D6 /* SPFTableViewDragAndDrop.m */,
+				C51813021753A56C0054FFFB /* Controller.h */,
+				C51813031753A56C0054FFFB /* Controller.mm */,
+				C515AD751754ECCD00F75F8D /* SPFView.h */,
+				C515AD761754ECCD00F75F8D /* SPFView.m */,
+				C515AD781754F43900F75F8D /* SPFWindowsController.h */,
+				C515AD791754F43900F75F8D /* SPFWindowsController.m */,
+			);
+			path = DESEncryption;
+			sourceTree = "<group>";
+		};
+		C503717C1752408A005D594D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C503717D1752408A005D594D /* DESEncryption-Info.plist */,
+				C503717E1752408A005D594D /* InfoPlist.strings */,
+				C50371811752408A005D594D /* main.m */,
+				C50371831752408A005D594D /* DESEncryption-Prefix.pch */,
+				C50371841752408A005D594D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C515AD7B1754F6A900F75F8D /* DesClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C515AD7C1754F6A900F75F8D /* DESEncrypt.cpp */,
+				C515AD7D1754F6A900F75F8D /* DESEncrypt.h */,
+				C515AD7E1754F6A900F75F8D /* DESHeaders.h */,
+				C515AD7F1754F6A900F75F8D /* FileManager.h */,
+				C515AD801754F6A900F75F8D /* FileManager.mm */,
+			);
+			path = DesClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50371711752408A005D594D /* DESEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C503718F1752408A005D594D /* Build configuration list for PBXNativeTarget "DESEncryption" */;
+			buildPhases = (
+				C503716E1752408A005D594D /* Sources */,
+				C503716F1752408A005D594D /* Frameworks */,
+				C50371701752408A005D594D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DESEncryption;
+			productName = DESEncryption;
+			productReference = C50371721752408A005D594D /* DESEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C503716A17524089005D594D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "pengfei sun";
+			};
+			buildConfigurationList = C503716D17524089005D594D /* Build configuration list for PBXProject "DESEncryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C503716917524089005D594D;
+			productRefGroup = C50371731752408A005D594D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50371711752408A005D594D /* DESEncryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50371701752408A005D594D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50371801752408A005D594D /* InfoPlist.strings in Resources */,
+				C50371861752408A005D594D /* Credits.rtf in Resources */,
+				C503718C1752408A005D594D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C503716E1752408A005D594D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50371821752408A005D594D /* main.m in Sources */,
+				C50371891752408A005D594D /* SPFAppDelegate.m in Sources */,
+				C50371941752444E005D594D /* SPFViewFiles.m in Sources */,
+				C55A266A1753A06300AE85D6 /* SPFTableViewDragAndDrop.m in Sources */,
+				C51813041753A56C0054FFFB /* Controller.mm in Sources */,
+				C515AD771754ECCD00F75F8D /* SPFView.m in Sources */,
+				C515AD7A1754F43900F75F8D /* SPFWindowsController.m in Sources */,
+				C515AD811754F6A900F75F8D /* DESEncrypt.cpp in Sources */,
+				C515AD821754F6A900F75F8D /* FileManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C503717E1752408A005D594D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C503717F1752408A005D594D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C50371841752408A005D594D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50371851752408A005D594D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C503718A1752408A005D594D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C503718B1752408A005D594D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C503718D1752408A005D594D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C503718E1752408A005D594D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C50371901752408A005D594D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: lv miao (57YFPVXVHK)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DESEncryption/DESEncryption-Prefix.pch";
+				INFOPLIST_FILE = "DESEncryption/DESEncryption-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D43B6D66-1BC1-44BD-A0EE-B14BDA1FC7A4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C50371911752408A005D594D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: lv miao (57YFPVXVHK)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DESEncryption/DESEncryption-Prefix.pch";
+				INFOPLIST_FILE = "DESEncryption/DESEncryption-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D43B6D66-1BC1-44BD-A0EE-B14BDA1FC7A4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C503716D17524089005D594D /* Build configuration list for PBXProject "DESEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C503718D1752408A005D594D /* Debug */,
+				C503718E1752408A005D594D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C503718F1752408A005D594D /* Build configuration list for PBXNativeTarget "DESEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50371901752408A005D594D /* Debug */,
+				C50371911752408A005D594D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C503716A17524089005D594D /* Project object */;
+}
